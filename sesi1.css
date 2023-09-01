@@ -1,0 +1,78 @@
+/* Reset default margin and padding */
+body,
+h1,
+h2,
+h3,
+p ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: burlywood;
+  overflow: hidden;
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Content container styles */
+.container {
+  padding: 20px;
+}
+
+/* Portfolio item styles */
+.portfolio-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.portfolio-item img {
+  width: 200px;
+  height: auto;
+  float: left;
+  margin: 5px;
+}
+
+.portfolio-item h3 {
+  margin: 10px 0;
+}
+.portofolio-item
+
+.p {
+  color: blue;
+}
+
+/* Form styles */
+.form-container {
+  margin-top: 20px;
+}
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+form input,
+form button {
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
